@@ -49,7 +49,7 @@ export default function ContactPage() {
                             <Label htmlFor="message">Mensagem</Label>
                             <Textarea id="message" name="message" placeholder="Digite sua mensagem aqui..." required rows={5} />
                         </div>
-                        <Button type="submit" size="lg" className="w-full">
+                        <Button type="submit" size="lg" className="w-full cursor-pointer">
                             Enviar Mensagem
                         </Button>
                     </motion.form>
