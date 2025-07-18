@@ -8,6 +8,14 @@ import { containerVariants, itemVariants } from '@/lib/animations';
 const projectsData = [
   {
     "id": 1,
+    "title": "Creative Food",
+    "description": "Uma aplicação de chat interativa para descobrir receitas. Os usuários inserem os ingredientes que possuem e o bot, utilizando a API do TheMealDB, sugere pratos correspondentes. O projeto possui um design responsivo, sistema de favoritos, e uma interface moderna construída com React e Tailwind CSS.",
+    "image": "/images/creativefood/bot.png",
+    "tags": ["React", "Vite", "TypeScript", "Tailwind CSS", "TheMealDB API"],
+    "githubUrl": "https://github.com/Paulo-VieiraDev/creative-food.git"
+  },
+  {
+    "id": 2,
     "title": "PersonaChat",
     "description": "Uma aplicação de chat full-stack interativa que permite aos usuários conversarem com um elenco de personalidades de IA distintas. O projeto explora a engenharia de prompt com a API do Google Gemini para criar conversas dinâmicas e realistas, com histórico salvo no navegador e uma interface totalmente responsiva.",
     "image": "/images/personachat/chat.png",
@@ -16,7 +24,7 @@ const projectsData = [
     "githubUrl": "https://github.com/Paulo-VieiraDev/persona-chat"
   },
   {
-    id: 2,
+    id: 3,
     title: "Bibliotecário Escolar",
     description: "Plataforma web para gestão de bibliotecas escolares, automatizando o controle de livros, alunos e empréstimos.",
     video: "/videos/biblioteca.mp4",
@@ -24,7 +32,7 @@ const projectsData = [
     githubUrl: "https://github.com/Paulo-VieiraDev/bibliotecario-next"
   },
   {
-    id: 3,
+    id: 4,
     title: "Dengue Zero",
     description: "Projeto que mapeia focos de Dengue usando geolocalização para auxiliar na prevenção e combate à doença.",
     carouselImages: [
@@ -38,7 +46,7 @@ const projectsData = [
     githubUrl: "https://github.com/zCaio79/Dengue-Nextjs"
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfólio Pessoal",
     description: "Meu portfólio pessoal construído com Next.js, Tailwind CSS e Shadcn/UI para mostrar minhas habilidades e projetos.",
     image: "/images/portfolio/projeto-portfolio.png",
