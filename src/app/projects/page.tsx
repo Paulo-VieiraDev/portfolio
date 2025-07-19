@@ -7,7 +7,15 @@ import { containerVariants, itemVariants } from '@/lib/animations';
 
 const projectsData = [
   {
-    "id": 1,
+    id: 1,
+    title: "Radar Agro",
+    description: "Um dashboard dinâmico para o agronegócio, construído com Next.js. O projeto utiliza web scraping em tempo real (com Puppeteer e Cheerio) para buscar e exibir cotações de commodities com gráficos históricos, previsões do tempo com seletor de cidade, e as últimas notícias do setor em um layout profissional e responsivo.",
+    image: "/images/radaragro/agro.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Puppeteer", "Cheerio", "Recharts", "shadcn/ui"],
+    githubUrl: "https://github.com/Paulo-VieiraDev/radar-agro.git"
+  },
+  {
+    "id": 2,
     "title": "Creative Food",
     "description": "Uma aplicação de chat interativa para descobrir receitas. Os usuários inserem os ingredientes que possuem e o bot, utilizando a API do TheMealDB, sugere pratos correspondentes. O projeto possui um design responsivo, sistema de favoritos, e uma interface moderna construída com React e Tailwind CSS.",
     "image": "/images/creativefood/bot.png",
@@ -15,7 +23,7 @@ const projectsData = [
     "githubUrl": "https://github.com/Paulo-VieiraDev/creative-food.git"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "PersonaChat",
     "description": "Uma aplicação de chat full-stack interativa que permite aos usuários conversarem com um elenco de personalidades de IA distintas. O projeto explora a engenharia de prompt com a API do Google Gemini para criar conversas dinâmicas e realistas, com histórico salvo no navegador e uma interface totalmente responsiva.",
     "image": "/images/personachat/chat.png",
@@ -24,7 +32,7 @@ const projectsData = [
     "githubUrl": "https://github.com/Paulo-VieiraDev/persona-chat"
   },
   {
-    id: 3,
+    id: 4,
     title: "Bibliotecário Escolar",
     description: "Plataforma web para gestão de bibliotecas escolares, automatizando o controle de livros, alunos e empréstimos.",
     video: "/videos/biblioteca.mp4",
@@ -32,7 +40,7 @@ const projectsData = [
     githubUrl: "https://github.com/Paulo-VieiraDev/bibliotecario-next"
   },
   {
-    id: 4,
+    id: 5,
     title: "Dengue Zero",
     description: "Projeto que mapeia focos de Dengue usando geolocalização para auxiliar na prevenção e combate à doença.",
     carouselImages: [
@@ -46,7 +54,7 @@ const projectsData = [
     githubUrl: "https://github.com/zCaio79/Dengue-Nextjs"
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfólio Pessoal",
     description: "Meu portfólio pessoal construído com Next.js, Tailwind CSS e Shadcn/UI para mostrar minhas habilidades e projetos.",
     image: "/images/portfolio/projeto-portfolio.png",
